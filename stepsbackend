@@ -1,0 +1,31 @@
+// mongo connection:
+// 1=> npm i mongoose;
+
+// 2=> import mongoose from "mongoose"
+
+
+// 3=>mongoose.connect('apnaurl').then(()=>console.log("Database connected"))
+
+// 4=> create folder Modals>file User.Modals.js
+
+// env connection:
+
+// 1=> npm i dotenv
+// 2=> import dotenv from 'dotenv';
+// 3=> dotenv.config main index file mai dalneka taaki pakage ko use krske..
+// aur usko call krne ki liye..
+// 4=> mongoose.connect(process.env.MONGO_URL).then(()=>console.log('Database Connected'))
+// process.env.MONGO_URL env ke undar ka varaiable ko access krne ki "process.env.varkaNAam"...
+
+// to print logs ek aur package hai 
+// morgan connection:
+// 1=> npm i morgan
+// 2=> import morgan from 'morgan';
+// 3=> app.use(morgan('dev'));
+
+// cors to connect backend d=server with frontend..
+// npm i cors
+// import cors from 'cors';
+// app.use(cors())
+
+// npm i bcrypt it protects pasword in database..
