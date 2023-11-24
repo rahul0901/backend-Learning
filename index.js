@@ -1,16 +1,16 @@
-import Express  from "express";
+import express  from "express";
 import router from "./Routers/index.js";
 import mongoose from "mongoose";
 import dotenv from 'dotenv';
 import morgan from "morgan";
 import cors from 'cors';
 
-const app = Express();
+const app = express();
 
 dotenv.config();
 app.use(morgan('dev'));
 app.use(cors());
-app.use(Express.json())
+app.use(express.json())
 
 app.get('/', function(req, res){
     res.send('hello rahul')
